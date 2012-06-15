@@ -15,6 +15,7 @@
 		E05C42C115220EE7003F5853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C42C015220EE7003F5853 /* AppDelegate.m */; };
 		E05C42C415220EE7003F5853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05C42C315220EE7003F5853 /* ViewController.m */; };
 		E05C42C715220EE7003F5853 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05C42C515220EE7003F5853 /* ViewController.xib */; };
+		E05C42CE15220F12003F5853 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E05C42CD15220F12003F5853 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		E05C42B015220EE7003F5853 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E05C42B215220EE7003F5853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E05C42B415220EE7003F5853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E05C42B815220EE7003F5853 /* iAd-Info.plist */ = {isa = PBXFileReference; path = "iAd-Info.plist"; sourceTree = "<group>"; };
+		E05C42B815220EE7003F5853 /* iAd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iAd-Info.plist"; sourceTree = "<group>"; };
 		E05C42BA15220EE7003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E05C42BC15220EE7003F5853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E05C42BE15220EE7003F5853 /* iAd-Prefix.pch */ = {isa = PBXFileReference; path = "iAd-Prefix.pch"; sourceTree = "<group>"; };
-		E05C42BF15220EE7003F5853 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E05C42BE15220EE7003F5853 /* iAd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iAd-Prefix.pch"; sourceTree = "<group>"; };
+		E05C42BF15220EE7003F5853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E05C42C015220EE7003F5853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E05C42C215220EE7003F5853 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E05C42C215220EE7003F5853 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E05C42C315220EE7003F5853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E05C42C615220EE7003F5853 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E05C42CD15220F12003F5853 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05C42CE15220F12003F5853 /* iAd.framework in Frameworks */,
 				E05C42B115220EE7003F5853 /* UIKit.framework in Frameworks */,
 				E05C42B315220EE7003F5853 /* Foundation.framework in Frameworks */,
 				E05C42B515220EE7003F5853 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +70,7 @@
 		E05C42AF15220EE7003F5853 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E05C42CD15220F12003F5853 /* iAd.framework */,
 				E05C42B015220EE7003F5853 /* UIKit.framework */,
 				E05C42B215220EE7003F5853 /* Foundation.framework */,
 				E05C42B415220EE7003F5853 /* CoreGraphics.framework */,
